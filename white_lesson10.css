@@ -1,0 +1,164 @@
+body{
+  background-color: white;
+  color: #075cbd;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+  text-align: center;
+  font-family: Lobster;
+  font-size: 300%;
+}
+nav{
+  background-color: #075cbd;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 100%;
+}
+
+a{
+  color: white;
+  padding-right: 4%;
+  font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+
+}
+
+
+#resort{
+  width: 100%;
+  padding-top: 2%;
+}
+
+#resortnews{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#eventssurf{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.info{
+  text-align: center;
+  font-size: large;
+}
+.ourm{
+  background-color: #a8d7d7;
+  text-align: center;
+  font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+aside{
+  background-color: white;
+  color: #075cbd;
+  text-align: center;
+  font-family: Lobster, Georgia, 'Times New Roman', Times, serif;
+}
+
+#surfer{
+  width: 100%;
+  padding-top: 2%;
+}
+
+
+footer{
+  background-color: #075cbd;
+  color: white;
+ padding-left: 3% ;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#facebook{
+  width: 20%;
+}
+
+#twitter{
+  width: 20%;
+}
+#instagram{
+  width: 20%;
+}
+
+h3{
+  font-size: 200%;
+}
+
+#title{
+  color:#075cbd;
+}
+@media only screen and (min-width: 700px) {
+ 
+  
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 90% 10%;
+}
+
+main{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 3px;
+}
+
+aside{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+footer{
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 1;
+grid-column-end: 4;
+background-color: #075cbd;
+color: white;
+height: max-content;
+text-align: center;
+
+}
+#facebook{
+  width: 2%;
+ 
+}
+
+#twitter{
+  width: 2%;
+
+}
+
+#instagram{
+  width: 2%;
+
+}
+
+nav{
+  background-color: #075cbd;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 200%;
+}
+h3{
+  font-size: 200%;
+}
+
+#title{
+  color:#075cbd;
+}
